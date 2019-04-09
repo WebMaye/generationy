@@ -1,0 +1,299 @@
+{
+  "data": [
+    {
+      "type": "instance",
+      "name": "App",
+      "componentId": "app",
+      "id": 1632322,
+      "canHaveChildren": true,
+      "isVisible": true,
+      "attributes": "{\n\n}",
+      "tags": [],
+      "inline": true
+    }
+  ],
+  "components": [
+    {
+      "id": "app",
+      "name": "App",
+      "type": "component",
+      "globalStyle": "body, #root, #__next {\n  display: flex;\n  min-height: 100vh;\n  flex-direction: column;\n}\n\n.section-header {\n  margin-bottom: 3rem;\n}",
+      "canHaveChildren": true,
+      "isVisible": true,
+      "componentType": "function",
+      "code": "",
+      "defaultProps": "{\n\n}",
+      "initialState": "{\n\n}",
+      "methods": "{\n\n}",
+      "children": [
+        {
+          "type": "instance",
+          "componentId": 7454246,
+          "id": 3224942,
+          "tags": [
+            "Popular",
+            "Hero"
+          ],
+          "image": "hero.png",
+          "canHaveChildren": true,
+          "isVisible": true,
+          "attributes": "{\n\n}",
+          "inline": true
+        }
+      ]
+    },
+    {
+      "type": "component",
+      "name": "Hero Section",
+      "id": 7454246,
+      "children": [
+        {
+          "type": "element",
+          "tagName": "section",
+          "classNames": [
+            "section"
+          ],
+          "stylesheetId": 0,
+          "id": 2936569,
+          "children": [
+            {
+              "type": "element",
+              "tagName": "div",
+              "classNames": [
+                "container"
+              ],
+              "stylesheetId": 0,
+              "id": 8541427,
+              "children": [
+                {
+                  "type": "element",
+                  "tagName": "div",
+                  "classNames": [
+                    "columns",
+                    "is-vcentered",
+                    "is-desktop"
+                  ],
+                  "stylesheetId": 0,
+                  "id": 8791881,
+                  "children": [
+                    {
+                      "type": "element",
+                      "tagName": "div",
+                      "classNames": [
+                        "column",
+                        "is-5-desktop",
+                        "has-text-centered-touch"
+                      ],
+                      "stylesheetId": 0,
+                      "id": 4902737,
+                      "children": [
+                        {
+                          "type": "element",
+                          "tagName": "header",
+                          "name": "Header",
+                          "style": "margin-bottom: 2rem;",
+                          "id": 9151214,
+                          "children": [
+                            {
+                              "type": "element",
+                              "tagName": "h1",
+                              "classNames": [
+                                "title",
+                                "is-spaced",
+                                "is-1",
+                                "has-text-weight-bold"
+                              ],
+                              "stylesheetId": 0,
+                              "id": 3567938,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "canHaveChildren": false,
+                                  "text": "Generation Y",
+                                  "id": 2008993,
+                                  "isVisible": true
+                                }
+                              ],
+                              "canHaveChildren": true,
+                              "isVisible": true,
+                              "attributes": "{\n\n}",
+                              "tags": [],
+                              "name": "",
+                              "classNameExpressions": [],
+                              "style": ""
+                            },
+                            {
+                              "type": "element",
+                              "tagName": "p",
+                              "classNames": [
+                                "subtitle"
+                              ],
+                              "stylesheetId": 0,
+                              "id": 8355180,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "canHaveChildren": false,
+                                  "text": "A community of Digital Media enthusiasts in Ogun State, Nigeria sharing contents relating to the Digital world by 21st century generation.",
+                                  "id": 1881528,
+                                  "isVisible": true
+                                }
+                              ],
+                              "style": "max-width: 700px;\nmargin: 0 auto;",
+                              "canHaveChildren": true,
+                              "isVisible": true,
+                              "attributes": "{\n\n}",
+                              "tags": [],
+                              "name": "",
+                              "classNameExpressions": []
+                            }
+                          ],
+                          "canHaveChildren": true,
+                          "isVisible": true,
+                          "attributes": "{\n\n}",
+                          "tags": [],
+                          "classNames": [],
+                          "classNameExpressions": [],
+                          "stylesheetId": null
+                        },
+                        {
+                          "type": "element",
+                          "tagName": "a",
+                          "classNames": [
+                            "button",
+                            "is-medium",
+                            "is-link"
+                          ],
+                          "stylesheetId": 0,
+                          "id": 4620699,
+                          "children": [
+                            {
+                              "type": "text",
+                              "canHaveChildren": false,
+                              "text": "Join Us",
+                              "id": 8017296,
+                              "isVisible": true
+                            }
+                          ],
+                          "attributes": "{ href: \"https://chat.whatsapp.com/FaJYAPyHPxz1YzKWsQx4Kz\", target: \"_blank\" }",
+                          "canHaveChildren": true,
+                          "isVisible": true,
+                          "tags": [],
+                          "name": "",
+                          "classNameExpressions": [],
+                          "style": ""
+                        }
+                      ],
+                      "canHaveChildren": true,
+                      "isVisible": true,
+                      "attributes": "{\n\n}",
+                      "tags": [],
+                      "name": "",
+                      "classNameExpressions": [],
+                      "style": ""
+                    },
+                    {
+                      "type": "element",
+                      "tagName": "div",
+                      "classNames": [
+                        "column",
+                        "is-1"
+                      ],
+                      "name": "Spacer",
+                      "stylesheetId": 0,
+                      "id": 8440219,
+                      "canHaveChildren": true,
+                      "isVisible": true,
+                      "attributes": "{\n\n}",
+                      "tags": [],
+                      "classNameExpressions": [],
+                      "style": ""
+                    },
+                    {
+                      "type": "element",
+                      "tagName": "div",
+                      "classNames": [
+                        "column"
+                      ],
+                      "stylesheetId": 0,
+                      "id": 3424413,
+                      "children": [
+                        {
+                          "type": "element",
+                          "tagName": "figure",
+                          "classNames": [
+                            "image"
+                          ],
+                          "children": [
+                            {
+                              "type": "element",
+                              "tagName": "img",
+                              "attributes": "{\n  src: 'https://res.cloudinary.com/webmaye/image/upload/v1554757166/undraw_group_chat_v059.png'\n}",
+                              "canHaveChildren": false,
+                              "id": 4348091,
+                              "isVisible": true,
+                              "tags": [],
+                              "name": "",
+                              "classNames": [],
+                              "classNameExpressions": [],
+                              "style": "",
+                              "stylesheetId": null
+                            }
+                          ],
+                          "style": "max-width: 600px;\nmargin: 0 auto;",
+                          "stylesheetId": 0,
+                          "id": 7207422,
+                          "canHaveChildren": true,
+                          "isVisible": true,
+                          "attributes": "{\n\n}",
+                          "tags": [],
+                          "name": "",
+                          "classNameExpressions": []
+                        }
+                      ],
+                      "canHaveChildren": true,
+                      "isVisible": true,
+                      "attributes": "{\n\n}",
+                      "tags": [],
+                      "name": "",
+                      "classNameExpressions": [],
+                      "style": ""
+                    }
+                  ],
+                  "canHaveChildren": true,
+                  "isVisible": true,
+                  "attributes": "{\n\n}",
+                  "tags": [],
+                  "name": "",
+                  "classNameExpressions": [],
+                  "style": ""
+                }
+              ],
+              "canHaveChildren": true,
+              "isVisible": true,
+              "attributes": "{\n\n}",
+              "tags": [],
+              "name": "",
+              "classNameExpressions": [],
+              "style": ""
+            }
+          ],
+          "canHaveChildren": true,
+          "isVisible": true,
+          "attributes": "{\n\n}",
+          "tags": [],
+          "name": "",
+          "classNameExpressions": [],
+          "style": ""
+        }
+      ],
+      "componentType": "function",
+      "canHaveChildren": true,
+      "isVisible": true,
+      "code": "",
+      "defaultProps": "{\n\n}",
+      "initialState": "{\n\n}",
+      "methods": "{\n\n}"
+    }
+  ]
+}
